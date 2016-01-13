@@ -113,7 +113,7 @@ featurePlot(x = countCols,
             layout = c(4, 2))
 
 # FACTORS
-plotListFac <- ggplotListHist(facCols, trainOutcome)
+plotListFac <- ggplotListBar(facCols, trainOutcome)
 ggMultiplot(plotListFac, cols = 2)
 
 ##################################################
