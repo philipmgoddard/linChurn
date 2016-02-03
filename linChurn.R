@@ -423,12 +423,11 @@ xyplot(liftCurve,
                        lines = TRUE,
                        points = FALSE))
 
-
+# lift plot plots CumTestedPct (x-axis) vs CumEventPct(y-axis)
 # in test set, 1667 total
 # 224 churn, 1443 non churn
-# 26% of total samples gives 80% of churners
-# .26 * 1667 = 433
-# of this 433, 0.8 * 224 churn (179)
-# of this 433, the remaining 254 do not churn
-# so we have reached 245/1443 = 17.6% of non churners to get 80% of churners
+# 23.7% of total samples gives 80% of churners
+# .237 * 1667 = 395
+# of this 395, 0.8 * 224 churn (179)
+# of this 395, the remaining 216 do not churn
 
